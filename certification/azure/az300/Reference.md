@@ -7,4 +7,5 @@
 5. https://github.com/timothywarner/azure-arch-crash-course
 6. https://github.com/MicrosoftLearning/AZ-300ZH-Microsoft-Azure-Architect-Technologies/tree/master/Instructions/Labs
 7. https://www.examtopics.com/exams/microsoft/az-300/view/
+8. https://linuxacademy.com/blog/certifications/azure-certifications-and-roadmap/
 
