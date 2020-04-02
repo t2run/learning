@@ -8,7 +8,7 @@ spec:
       containers:
       - name: Hello
         image: alpine
-        command: 'echo','Hello K8s'
+        command: echo Hello there
       restartPolicy: Never
   backoffLimit: 4
 
