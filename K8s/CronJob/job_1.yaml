@@ -1,14 +1,16 @@
+--- 
 apiVersion: batch/v1
 kind: Job
-metadata:
+metadata: 
   name: hello
-spec:
-  template:
-    containers:
-     - name: hello
-       image: busybox
-        args:
-         - /bin/sh
-         - -c
-         - date; echo Hello from the Kubernetes cluster
+spec: 
+  template: 
+    containers: 
+      - 
+        args: 
+          - /bin/sh
+          - "-c"
+          - "date; echo Hello from the Kubernetes cluster"
+        image: busybox
+        name: hello
     restartPolicy: Never
