@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pi
+spec:
+  template:
+    spec:
+      containers:
+      - name: Hello
+        image: alpine
+        command: 'echo','Hello K8s'
+      restartPolicy: Never
+  backoffLimit: 4
+
