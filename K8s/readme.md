@@ -33,7 +33,7 @@ Use podAffinity to make sure that pods from separate deployments are scheduled o
 
 Expected Outcome:- Show the list of resources(yamls) created for each scenario and how it works in the cluster in a working demo.
 
-
+IStio
 Gateway
 virtual service
 Destination rule
